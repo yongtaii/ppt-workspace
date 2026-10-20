@@ -1,0 +1,47 @@
+{
+  "organization": "서비스플랫폼담당",
+  "date": "OCTOBER 2026",
+  "title": "10월 우수직원 포상",
+  "recipients": [
+    {
+      "award": "[상 이름 01]",
+      "name": "[이름 01]",
+      "role": "[직책]",
+      "team": "[팀명]",
+      "reason": "수상 사유를 입력해 주세요.\n구체적인 기여와 성과를 2~3문장으로 작성합니다.",
+      "photo": "input/recipient_01.jpg"
+    },
+    {
+      "award": "[상 이름 02]",
+      "name": "[이름 02]",
+      "role": "[직책]",
+      "team": "[팀명]",
+      "reason": "수상 사유를 입력해 주세요.\n구체적인 기여와 성과를 2~3문장으로 작성합니다.",
+      "photo": "input/recipient_02.jpg"
+    },
+    {
+      "award": "[상 이름 03]",
+      "name": "[이름 03]",
+      "role": "[직책]",
+      "team": "[팀명]",
+      "reason": "수상 사유를 입력해 주세요.\n구체적인 기여와 성과를 2~3문장으로 작성합니다.",
+      "photo": "input/recipient_03.jpg"
+    },
+    {
+      "award": "[상 이름 04]",
+      "name": "[이름 04]",
+      "role": "[직책]",
+      "team": "[팀명]",
+      "reason": "수상 사유를 입력해 주세요.\n구체적인 기여와 성과를 2~3문장으로 작성합니다.",
+      "photo": "input/recipient_04.jpg"
+    },
+    {
+      "award": "[상 이름 05]",
+      "name": "[이름 05]",
+      "role": "[직책]",
+      "team": "[팀명]",
+      "reason": "수상 사유를 입력해 주세요.\n구체적인 기여와 성과를 2~3문장으로 작성합니다.",
+      "photo": "input/recipient_05.jpg"
+    }
+  ]
+}

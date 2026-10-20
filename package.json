@@ -1,0 +1,17 @@
+{
+  "name": "ppt-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/build_awards.js",
+    "preview": "node src/preview.js output/awards_2026.pptx --out-dir output/rendered",
+    "inspect": "node src/preview.js --inspect output/awards_2026.pptx --out-dir output/rendered --expected-slides 8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
