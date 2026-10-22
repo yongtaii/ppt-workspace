@@ -12,6 +12,10 @@
 - 정보 위계와 정렬, 여백의 일관성을 유지한다.
 - 장식보다 전달력을 우선한다.
 
+## 프로젝트 기본 디자인
+- 별도 요청이 없으면 [Apple 기반 PPT 디자인](design/apple/ppt-design.md)과 [테마 토큰](design/apple/theme.json)을 적용한다. 원본은 [DESIGN-apple.md](design/apple/DESIGN-apple.md)에 보존한다.
+- 한글은 Apple SD Gothic Neo, 영문 전용 문구는 Helvetica Neue를 기본으로 한다. 기존 발표와 사용자 지정 스타일은 보존한다.
+
 ## 제작
 - 기본 출력 형식은 편집 가능한 PPTX로 한다.
 - 이미지가 필요한 요소와 편집 가능한 도형을 구분한다.

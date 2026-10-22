@@ -7,6 +7,15 @@ description: PptxGenJS로 편집 가능한 PowerPoint를 제작·수정하고 �
 
 프로젝트에 `AGENTS.md`가 있으면 읽고, 사용자의 목적·청중·지정 문구와 데이터를 기준으로 작업한다. 아래 `scripts/`, `references/`, `assets/`는 이 Skill 디렉터리 기준이다. 프로젝트 경로는 Skill 설치 경로와 구분한다.
 
+## 프로젝트 기본 스타일
+
+이 프로젝트에서는 별도 디자인 요청이 없으면 `design/apple/ppt-design.md`와 `design/apple/theme.json`을 읽어 Apple 기반 스타일을 적용한다. 원본 디자인 분석은 `design/apple/DESIGN-apple.md`에 보존한다. 다른 프로젝트에 이 Skill을 재사용할 때는 이 경로가 있는 경우에만 적용하며, 사용자의 발표별 지정을 우선한다.
+
+- 한국어 기본 글꼴은 macOS의 `Apple SD Gothic Neo`, 제목은 설치된 `AppleSDGothicNeo-SemiBold`를 우선 사용한다. 영문 전용 텍스트는 `Helvetica Neue`를 사용한다.
+- PPTX의 `fontFace`에는 실제 설치된 글꼴 이름 하나만 지정한다. CSS의 `system-ui`, `-apple-system`이나 쉼표로 연결한 폰트 스택을 넣지 않는다.
+- 원본의 웹 px 수치를 PPT pt로 그대로 옮기지 않는다. 16:9 발표에서 제목 36–54pt, 본문 18–24pt를 기준으로 정보량에 맞춘다.
+- 새 발표는 이 기본값으로 제작하되 기존 발표를 명시적 요청 없이 재디자인하지 않는다.
+
 ## 입력 및 디자인
 
 - 프로젝트의 `input/`에서 발표별 원고와 사진을 확인한다. 미제공 정보는 명시적 자리표시자로 처리한다.

@@ -1,0 +1,30 @@
+{
+  "name": "Apple-inspired macOS",
+  "layout": "LAYOUT_WIDE",
+  "fonts": {
+    "body": "Apple SD Gothic Neo",
+    "heading": "AppleSDGothicNeo-SemiBold",
+    "latin": "Helvetica Neue"
+  },
+  "colors": {
+    "white": "FFFFFF",
+    "canvas": "F5F5F7",
+    "pearl": "FAFAFC",
+    "ink": "1D1D1F",
+    "muted": "7A7A7A",
+    "dark": "272729",
+    "darkTile": "2A2A2C",
+    "darkMuted": "CCCCCC",
+    "blue": "0066CC",
+    "blueOnDark": "2997FF",
+    "hairline": "E0E0E0"
+  },
+  "type": {
+    "hero": 52,
+    "heading": 38,
+    "lead": 24,
+    "body": 20,
+    "caption": 12
+  },
+  "margin": 0.72
+}
