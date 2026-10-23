@@ -6,6 +6,10 @@
 ppt-workspace/
 ├── AGENT.md                    # 사용자가 지정한 공통 원칙 (보존)
 ├── AGENTS.md                   # 프로젝트 경로·실행·검수 규칙
+├── CLAUDE.md                   # Claude Code용 (AGENTS.md·AGENT.md를 import)
+├── .claude/
+│   ├── settings.json           # 빌드·검수 명령 허용
+│   └── skills/my-ppt-designer -> ../../.agents/skills/my-ppt-designer
 ├── .agents/skills/my-ppt-designer/
 │   ├── SKILL.md
 │   ├── references/preview-validation.md
@@ -31,6 +35,12 @@ bash src/finalize_skill_layout.sh
 ```
 
 `src/preview.js`가 최종 Skill 위치를 인식하므로 기존 실행 명령을 그대로 사용합니다. 다른 프로젝트에서는 Skill 디렉터리를 복사하고 해당 프로젝트의 `src/`, `input/`, `design/`을 별도로 구성합니다. Skill에는 포상 PPT 생성 코드를 포함하지 않습니다.
+
+## Codex / Claude Code 공용
+
+- Codex는 `AGENTS.md`와 `.agents/skills/`를, Claude Code는 `CLAUDE.md`와 `.claude/skills/`를 읽습니다.
+- `CLAUDE.md`는 `@AGENTS.md`, `@AGENT.md`를 불러오므로 공통 규칙은 `AGENTS.md`/`AGENT.md`에서만 수정합니다.
+- `.claude/skills/my-ppt-designer`는 심볼릭 링크라서 Skill도 `.agents/skills/my-ppt-designer/` 한 곳만 수정하면 양쪽에 반영됩니다.
 
 ## 기존 포상 PPT
 

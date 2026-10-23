@@ -8,17 +8,26 @@
     "preview": "node src/preview.js output/apple_design_sample.pptx --out-dir output/apple_sample_preview",
     "inspect": "node src/preview.js --inspect output/apple_design_sample.pptx --out-dir output/apple_sample_preview --expected-slides 6",
     "build:awards": "node src/build_awards.js",
+    "build:claude": "node src/build_claude_sample.js",
+    "build:claude-web": "node src/build_claude_web.js",
+    "build:feature": "node src/build_feature_test.js",
+    "inspect:feature": "node src/preview.js --inspect output/feature_test.pptx --out-dir output/feature_test_preview --expected-slides 12",
+    "preview:feature": "node src/preview.js output/feature_test.pptx --out-dir output/feature_test_preview",
+    "align:feature": "node src/check_alignment.js output/feature_test.pptx --out output/feature_test_preview/alignment_report.json",
+    "keynote:feature": "sh src/keynote_export.sh output/feature_test.pptx output/feature_test_keynote",
     "build:validation": "node src/build_design_validation.js",
     "inspect:validation": "node src/preview.js --inspect output/design_validation/form_design_validation_12.pptx --out-dir output/design_validation/inspection --expected-slides 12 && python3 src/validate_design_validation.py",
     "preview:validation": "node src/render_design_validation.js",
     "build:validation-web": "node src/build_validation_web.js",
-    "check:validation-web": "node src/check_validation_web.js"
+    "check:validation-web": "node src/check_validation_web.js",
+    "build:feature-web": "node src/build_feature_test_web.js",
+    "check:feature-web": "node src/render_web_deck.js output/feature_test_web.html --out-dir output/feature_test_web_preview --slides 12"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pptxgenjs": "^4.0.1",
-    "jszip": "3.10.1"
+    "jszip": "3.10.1",
+    "pptxgenjs": "^4.0.1"
   }
 }

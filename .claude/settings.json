@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(npm run build:*)",
+      "Bash(npm run inspect)",
+      "Bash(npm run preview)",
+      "Bash(node src/preview.js:*)",
+      "Bash(node src/build_:*)"
+    ]
+  }
+}
