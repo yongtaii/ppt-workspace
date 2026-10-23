@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+<!-- LibreOffice headless on macOS: explicitly discover system fonts. -->
+<fontconfig>
+  <dir>/System/Library/Fonts</dir>
+  <dir>/System/Library/Fonts/Supplemental</dir>
+  <dir>/Library/Fonts</dir>
+  <dir prefix="xdg">fonts</dir>
+  <cachedir>/tmp/form-font-cache</cachedir>
+  <alias><family>AppleSDGothicNeo-SemiBold</family><prefer><family>Apple SD Gothic Neo</family></prefer></alias>
+  <alias><family>sans-serif</family><prefer><family>Helvetica Neue</family><family>Apple SD Gothic Neo</family></prefer></alias>
+</fontconfig>

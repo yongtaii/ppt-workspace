@@ -1,0 +1,11 @@
+{
+  "name": "FORM / Enterprise presentation validation",
+  "layout": "LAYOUT_WIDE",
+  "width": 13.333333,
+  "height": 7.5,
+  "margin": 0.65,
+  "fonts": {"body": "Apple SD Gothic Neo", "heading": "AppleSDGothicNeo-SemiBold", "latin": "Helvetica Neue"},
+  "colors": {"ink": "172638", "muted": "697888", "blue": "0066CC", "sky": "75B9F0", "pale": "EDF4FC", "canvas": "F5F7FA", "line": "DCE4ED", "white": "FFFFFF", "gold": "9D7B44", "goldPale": "F8F5EE"},
+  "type": {"hero": 42, "title": 34, "body": 20, "label": 14, "caption": 11},
+  "rules": ["모든 슬라이드 16:9", "기준선과 바깥 여백 공유", "슬라이드 번호와 기능 이름을 공통 푸터로 표시", "수치·조직·인물은 가상 예시", "사용자가 지정한 효과 테스트 슬라이드에만 그라데이션·그림자 허용", "텍스트·도형·차트·표는 네이티브 개체; 사진은 원본과 크롭 정보 유지"]
+}

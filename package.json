@@ -7,12 +7,18 @@
     "build": "node src/build_apple_sample.js",
     "preview": "node src/preview.js output/apple_design_sample.pptx --out-dir output/apple_sample_preview",
     "inspect": "node src/preview.js --inspect output/apple_design_sample.pptx --out-dir output/apple_sample_preview --expected-slides 6",
-    "build:awards": "node src/build_awards.js"
+    "build:awards": "node src/build_awards.js",
+    "build:validation": "node src/build_design_validation.js",
+    "inspect:validation": "node src/preview.js --inspect output/design_validation/form_design_validation_12.pptx --out-dir output/design_validation/inspection --expected-slides 12 && python3 src/validate_design_validation.py",
+    "preview:validation": "node src/render_design_validation.js",
+    "build:validation-web": "node src/build_validation_web.js",
+    "check:validation-web": "node src/check_validation_web.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pptxgenjs": "^4.0.1"
+    "pptxgenjs": "^4.0.1",
+    "jszip": "3.10.1"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "notice": "모든 지표·일정·조직·인물 이름·수상 내역은 검증용 가상 데이터입니다. 사진 속 인물의 실제 신원·성과와 관계없습니다.",
+  "monthly": {"labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"], "revenue": [18, 23, 26, 31, 35, 42], "target": [20, 24, 28, 32, 36, 40]},
+  "segments": {"labels": ["Enterprise", "Growth", "Public", "Partners"], "current": [42, 28, 18, 12], "previous": [34, 24, 16, 10]},
+  "kpis": [{"label": "월간 반복 매출", "value": "₩4.2억", "change": "+20.0%", "note": "전월 대비"}, {"label": "활성 고객", "value": "1,248", "change": "+12.4%", "note": "전월 대비"}, {"label": "고객 유지율", "value": "96.8%", "change": "+1.2%p", "note": "전월 대비"}, {"label": "서비스 가용성", "value": "99.95%", "change": "+0.03%p", "note": "전월 대비"}],
+  "timeline": [{"month": "01", "title": "발견", "body": "요구사항 정리", "owner": "Strategy"}, {"month": "02", "title": "설계", "body": "경험·구조 정의", "owner": "Design"}, {"month": "03", "title": "구축", "body": "핵심 기능 구현", "owner": "Engineering"}, {"month": "04", "title": "검증", "body": "통합·사용성 테스트", "owner": "Quality"}, {"month": "05", "title": "출시", "body": "단계적 서비스 공개", "owner": "Operations"}],
+  "person": {"name": "김서연", "role": "Product Design Lead", "award": "Excellence in Design", "quote": "복잡한 문제를, 명확한 경험으로.", "team": "Experience Studio", "year": "2026", "disclaimer": "가상 수상자 · 예시 사진"},
+  "sources": [{"file": "assets/workspace.jpg", "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72", "purpose": "크롭·마스크 검증용 스톡 사진"}, {"file": "assets/portrait.jpg", "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956", "purpose": "프로필 레이아웃 검증용 스톡 사진; 가상 이름과 무관"}]
+}
